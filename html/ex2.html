@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Profile</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <h2>Information about a GitHub user</h2>
+
+  <form id="github-form">
+    <label for="login">GitHub login:</label>
+    <input type="text" id="login" value="bpesquet">
+    <button type="submit">Lookup</button>
+  </form>
+
+  <p id="profile-picture"></p>
+
+  <table id="profile">
+    <tr>
+      <th>Name</th>
+      <td id="name"></td>
+    </tr>
+    <tr>
+      <th>Blog</th>
+      <td id="blog"></td>
+    </tr>
+    <tr>
+      <th>Created</th>
+      <td id="created"></td>
+    </tr>
+  </table>
+
+  <p><a href="../index.html">Back to index</a></p>
+  <script src="../js/ex2.js"></script>
+</body>
+</html>
